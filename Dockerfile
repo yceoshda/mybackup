@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:latest
 
 # Creating a user to avoid backup files as root
 RUN addgroup -g 420 mysqlbackup && \
